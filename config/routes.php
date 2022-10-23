@@ -42,6 +42,8 @@ return static function (RouteBuilder $routes) {
      * inconsistently cased URLs when used with `{plugin}`, `{controller}` and
      * `{action}` markers.
      */
+    /** @var \Cake\Routing\RouteBuilder $routes */
+    $routes->connect('/', ['controller' => 'Cards', 'action' => 'index']);
     $routes->setRouteClass(DashedRoute::class);
 
     $routes->scope('/', function (RouteBuilder $builder) {

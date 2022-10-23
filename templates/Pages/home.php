@@ -54,8 +54,8 @@ endif;
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-        CakePHP: the rapid development PHP framework:
         <?= $this->fetch('title') ?>
+        - Yi-Gi-Oh! with Aaron
     </title>
     <?= $this->Html->meta('icon') ?>
 

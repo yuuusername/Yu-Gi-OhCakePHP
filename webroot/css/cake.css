@@ -7,16 +7,16 @@ body {
 .top-nav-links,
 .side-nav,
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica Neue", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
-    color: #363637;
+    color: #625B71;
 }
 
 a {
-    color:#2f85ae;
+    color:#6750A4;
     -webkit-transition:all 0.2s linear;
     transition:all 0.2s linear;
 }
@@ -33,7 +33,7 @@ a:active  {
 .top-nav-links a,
 th a,
 .actions a {
-    color: #606c76;
+    color: #1C1B1F;
 }
 
 .side-nav a:hover,
@@ -53,16 +53,23 @@ th a,
 
 /* Main */
 body {
-    background: #f5f7fa;
+    background-image: url(../img/bg-common.png);
 }
 .content {
     padding: 2rem;
-    background: #ffffff;
+    background: #E6E1E5;
     border-radius: 0.4rem;
-    /* Thanks Stripe */
     box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.1),
         0 3px 6px 0 rgba(0, 0, 0, 0.07);
 }
+.chip {
+    padding: 2rem;
+    background: #f2eff1;
+    border-radius: 0.4rem;
+    box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.1),
+    0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+
 .actions a {
     font-weight: bold;
     padding: 0 0.4rem;
@@ -82,10 +89,10 @@ th {
 }
 .top-nav-title a {
     font-size: 2.4rem;
-    color: #d33c43;
+    color: #7D5260;
 }
 .top-nav-title span {
-    color: #404041;
+    color: #6750A4;
 }
 .top-nav-links a {
     margin: 0 0.5rem;
