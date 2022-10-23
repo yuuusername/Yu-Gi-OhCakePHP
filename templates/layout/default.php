@@ -41,10 +41,10 @@ $cakeDescription = 'Yi-Gi-Oh! with Aaron';
             <a href="<?= $this->Url->build('/') ?>"><span>Yu-Gi-Oh!</span> with Aaron</a>
         </div>
         <div class="top-nav-links">
-            <a target="" rel="" href="/cards">Cards</a>
-            <a target="" rel="" href="/types">Types</a>
-            <a target="" rel="" href="/races">Races</a>
-            <a target="" rel="" href="/attributes">Attributes</a>
+            <a target="" rel="" href="./cards">Cards</a>
+            <a target="" rel="" href="./types">Types</a>
+            <a target="" rel="" href="./races">Races</a>
+            <a target="" rel="" href="./attributes">Attributes</a>
         </div>
     </nav>
     <main class="main">
